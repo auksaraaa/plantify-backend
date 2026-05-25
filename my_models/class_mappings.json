@@ -1,0 +1,40 @@
+{
+  "part_classes": {
+    "0": "bark",
+    "1": "flower",
+    "2": "fruit",
+    "3": "leaf"
+  },
+  "species_classes": {
+    "bark": {
+      "0": "Nokyung",
+      "1": "Nonsi",
+      "2": "Taku"
+    },
+    "flower": {
+      "0": "Nokyung",
+      "1": "Nonsi",
+      "2": "Taku"
+    },
+    "fruit": {
+      "0": "Nokyung",
+      "1": "Nonsi",
+      "2": "Taku"
+    },
+    "leaf": {
+      "0": "Nokyung",
+      "1": "Nonsi",
+      "2": "Taku"
+    }
+  },
+  "img_size": [
+    224,
+    224
+  ],
+  "parts": [
+    "bark",
+    "flower",
+    "fruit",
+    "leaf"
+  ]
+}
