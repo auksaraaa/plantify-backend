@@ -90,12 +90,12 @@ async def predict_image(file: UploadFile = File(...)):
     
     try:
         image_bytes = await file.read()
-        # ทำให้อยู่ในขนาด 224x224 ตามแบบ MobileNetV3
-        img = Image.open(io.BytesIO(image_bytes)).convert("RGB").resize((224, 224))
+        # ทำให้อยู่ในขนาด 384x384 ตามแบบ EfficientNetV2S
+        img = Image.open(io.BytesIO(image_bytes)).convert("RGB").resize((384, 384))
         
         arr = np.array(img, dtype=np.float32)
-        arr = tf.keras.applications.mobilenet_v3.preprocess_input(arr)
-        arr = np.expand_dims(arr, axis=0) # shape (1, 224, 224, 3)
+        arr = tf.keras.applications.efficientnet_v2.preprocess_input(arr)
+        arr = np.expand_dims(arr, axis=0) # shape (1, 384, 384, 3)
 
         # --- 1. ทำนายส่วนพืช (Part) ---
         part_pred = part_model.predict(arr, verbose=0)[0]
