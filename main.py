@@ -18,7 +18,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-HF_REPO_ID = os.getenv("HF_REPO_ID", "Teerakorn/MobilenetV3plantclassification")
+HF_REPO_ID = os.getenv("HF_REPO_ID", "Teerakorn/Efficientnetv2splantclassification")
 MODEL_CACHE_DIR = os.getenv("MODEL_CACHE_DIR", "my_models") # เปลี่ยนชื่อแฟ้มแคชเป็น my_models 
 CONFIDENCE_THRESHOLD = 0.5
 

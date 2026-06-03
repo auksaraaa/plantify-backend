@@ -7,29 +7,49 @@
   },
   "species_classes": {
     "bark": {
-      "0": "Nokyung",
-      "1": "Nonsi",
-      "2": "Taku"
+      "0": "Arang",
+      "1": "Hangnokyungfarang",
+      "2": "Inthaninbok",
+      "3": "Intharachit",
+      "4": "Nonsi",
+      "5": "Paolo",
+      "6": "Praduban",
+      "7": "Pradupa",
+      "8": "Tabaekplueakbang",
+      "9": "Taku",
+      "10": "Yangna"
     },
     "flower": {
-      "0": "Nokyung",
-      "1": "Nonsi",
-      "2": "Taku"
+      "0": "Hangnokyungfarang",
+      "1": "Inthaninbok",
+      "2": "Intharachit",
+      "3": "Nonsi",
+      "4": "Taku"
     },
     "fruit": {
-      "0": "Nokyung",
-      "1": "Nonsi",
-      "2": "Taku"
+      "0": "Hangnokyungfarang",
+      "1": "Inthaninbok",
+      "2": "Nonsi",
+      "3": "Praduban",
+      "4": "Pradupa",
+      "5": "Tabaekplueakbang",
+      "6": "Yangna"
     },
     "leaf": {
-      "0": "Nokyung",
-      "1": "Nonsi",
-      "2": "Taku"
+      "0": "Hangnokyungfarang",
+      "1": "Inthaninbok",
+      "2": "Nonsi",
+      "3": "Paolo",
+      "4": "Praduban",
+      "5": "Pradupa",
+      "6": "Tabaekplueakbang",
+      "7": "Taku",
+      "8": "Yangna"
     }
   },
   "img_size": [
-    224,
-    224
+    384,
+    384
   ],
   "parts": [
     "bark",
